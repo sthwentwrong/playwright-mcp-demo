@@ -1,5 +1,15 @@
 import { defineConfig, devices } from '@playwright/test';
-// FYI: https://midscenejs.com/integrate-with-playwright.html
+import dotenv from "dotenv";
+/**
+ * Read environment variables from file.
+ * https://github.com/motdotla/dotenv
+ */
+dotenv.config();
+
+/**
+ * See https://playwright.dev/docs/test-configuration.
+ * FYI: https://midscenejs.com/integrate-with-playwright.html
+ */
 export default defineConfig({
   testDir: "./e2e",
   testMatch: "**/*.spec.ts",

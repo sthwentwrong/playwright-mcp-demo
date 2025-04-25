@@ -2,3 +2,4 @@ node_modules/
 # Midscene.js dump files
 midscene_run/
 test-results/
+.env

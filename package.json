@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@playwright/mcp": "^0.0.15",
+    "dotenv": "^16.5.0",
     "playwright-mcp-demo": "file:"
   }
 }
